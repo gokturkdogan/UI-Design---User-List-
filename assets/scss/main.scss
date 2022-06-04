@@ -1,0 +1,13 @@
+@import 'layout/title';
+@import 'layout/navbar';
+@import 'layout/users';
+@import 'variables/colors';
+body{
+    background-color: $mainbg;
+    .container{
+        .userlist{
+            background-color: $usersbg;
+
+        }
+    }
+}
