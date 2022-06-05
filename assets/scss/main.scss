@@ -1,13 +1,9 @@
-@import 'layout/title';
-@import 'layout/navbar';
-@import 'layout/users';
 @import 'variables/colors';
+@import 'layout/users';
 body{
     background-color: $mainbg;
     .container{
-        .userlist{
-            background-color: $usersbg;
-
-        }
+        width: 850px;
+        margin: 70px 100px;        
     }
 }

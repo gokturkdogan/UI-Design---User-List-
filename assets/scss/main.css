@@ -1,6 +1,57 @@
+.userList {
+  background-color: #FFFFFF;
+  border-radius: 15px;
+  padding: 70px;
+}
+.userList__navbar {
+  display: flex;
+  justify-content: space-between;
+  margin-top: 20px;
+  width: 100%;
+}
+.userList__search {
+  margin-left: 17px;
+  border: 1px solid grey;
+}
+.userList__search input {
+  border: none;
+}
+.userList__menu ul {
+  list-style: none;
+}
+.userList__menu ul li {
+  float: left;
+}
+.userList__menu ul li a {
+  text-decoration: none;
+  color: #4A4F60;
+  margin-right: 20px;
+  font-size: 0.8rem;
+  font-weight: 600;
+}
+.userList__body {
+  margin-top: 60px;
+  width: 100%;
+}
+.userList__user {
+  display: flex;
+}
+.userList__image img {
+  border-radius: 55px;
+  width: 80px;
+  height: 80px;
+}
+.userList__tags span {
+  color: #7088DC;
+  border: 1px solid grey;
+  border-radius: 10px;
+  padding: 1px;
+}
+
 body {
   background-color: #E6EAF8;
 }
-body .container .userlist {
-  background-color: #FFFFFF;
+body .container {
+  width: 850px;
+  margin: 70px 100px;
 }/*# sourceMappingURL=main.css.map */
