@@ -8,15 +8,19 @@
     &__navbar{
         display: flex;
         justify-content: space-between;
-        margin-top: 20px;
+        margin-top: 5px;
         width: 100%;
 
     }
     &__search{
+        font-size: 0.8rem;
+        padding: 8px 15px;
         margin-left: 17px;
-        border: 1px solid grey;
+        border: 1px solid $inputborder;
+        border-radius: 3px;
         input{
             border: none;
+            
         }
     }
     &__menu{
@@ -27,20 +31,28 @@
                 a{
                     text-decoration: none;
                     color: $menufont;
-                    margin-right: 20px;
+                    margin-right: 5px;
+                    border-radius: 7px;
                     font-size: 0.8rem;
                     font-weight: 600;
-
+                    padding: 10px;
+                    &:hover{
+                        background-color: $menubtn;
+                        color: #fff;
+                    }
+                    
                 }
             }
         }
     }
     &__body{
-        margin-top: 60px;
+        margin-top: 0px;
         width: 100%;
+        padding-left: 20px;
     }
     &__user{
         display: flex;
+        margin-top: 60px;
 
     }
     &__image{
@@ -52,18 +64,38 @@
 
     }
     &__content{
+        margin-left: 10px;
 
     }
     &__info{
+        margin-top: 15px;
+        margin-bottom: 0px;
 
+        h6{
+            margin-bottom: 0;
+
+        }
+        p{
+            font-size: 0.7rem;
+            margin-top: 0;
+            font-weight: 600;
+        }
     }
     &__tags{
+        margin-top: 0px;
         span{
             color: $tag;
-            border: 1px solid grey;
+            border: 1px solid $tagborder;
             border-radius: 10px;
-            padding: 1px;
+            padding: 1px 5px;
+            font-size: 0.55rem;
+            font-weight: 600;
         }
 
     }
+    .active{
+        background-color: $menubtn;
+        color: #fff;
+    }
+
 }

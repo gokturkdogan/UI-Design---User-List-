@@ -6,12 +6,15 @@
 .userList__navbar {
   display: flex;
   justify-content: space-between;
-  margin-top: 20px;
+  margin-top: 5px;
   width: 100%;
 }
 .userList__search {
+  font-size: 0.8rem;
+  padding: 8px 15px;
   margin-left: 17px;
-  border: 1px solid grey;
+  border: 1px solid #b7b8bd;
+  border-radius: 3px;
 }
 .userList__search input {
   border: none;
@@ -25,27 +28,59 @@
 .userList__menu ul li a {
   text-decoration: none;
   color: #4A4F60;
-  margin-right: 20px;
+  margin-right: 5px;
+  border-radius: 7px;
   font-size: 0.8rem;
   font-weight: 600;
+  padding: 10px;
+}
+.userList__menu ul li a:hover {
+  background-color: #849FFF;
+  color: #fff;
 }
 .userList__body {
-  margin-top: 60px;
+  margin-top: 0px;
   width: 100%;
+  padding-left: 20px;
 }
 .userList__user {
   display: flex;
+  margin-top: 60px;
 }
 .userList__image img {
   border-radius: 55px;
   width: 80px;
   height: 80px;
 }
+.userList__content {
+  margin-left: 10px;
+}
+.userList__info {
+  margin-top: 15px;
+  margin-bottom: 0px;
+}
+.userList__info h6 {
+  margin-bottom: 0;
+}
+.userList__info p {
+  font-size: 0.7rem;
+  margin-top: 0;
+  font-weight: 600;
+}
+.userList__tags {
+  margin-top: 0px;
+}
 .userList__tags span {
   color: #7088DC;
-  border: 1px solid grey;
+  border: 1px solid #b0b0b7;
   border-radius: 10px;
-  padding: 1px;
+  padding: 1px 5px;
+  font-size: 0.55rem;
+  font-weight: 600;
+}
+.userList .active {
+  background-color: #849FFF;
+  color: #fff;
 }
 
 body {
@@ -53,5 +88,5 @@ body {
 }
 body .container {
   width: 850px;
-  margin: 70px 100px;
+  margin: 70px 150px;
 }/*# sourceMappingURL=main.css.map */
