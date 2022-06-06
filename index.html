@@ -8,7 +8,12 @@
     <script src="https://kit.fontawesome.com/59fe93ed09.js" crossorigin="anonymous"></script>
     <link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/bootstrap/4.2.1/css/bootstrap.min.css"
         integrity="sha384-GJzZqFGwb1QTTN6wy59ffF1BuGJpLSa9DkKMp0DgiMDm4iYMj70gZWKYbI706tWS" crossorigin="anonymous">
-        <link rel="stylesheet" href="assets/scss/main.css">
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+<link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+<link href="https://fonts.googleapis.com/css2?family=Gentium+Plus:wght@700&family=Kanit:wght@200;400&family=Lato:wght@300&family=Nunito:wght@300;400&family=Nuosu+SIL&family=Roboto:wght@100;300&family=Ubuntu:wght@300;400;700&family=Zen+Maru+Gothic:wght@300&display=swap" rel="stylesheet">
+    <link rel="stylesheet" href="assets/scss/main.css">
     <title>User List</title>
 </head>
 
@@ -26,7 +31,7 @@
                 <div class="userList__navbar">
                     <div class="userList__search">
                         <i class="fa-solid fa-magnifying-glass"></i>
-                        <input type="text" placeholder="Search users">
+                        <input type="text" id="search" onkeyup="myFunction()" placeholder="Search users">
                     </div>
                     <div class="userList__menu">
                         <ul>
@@ -70,8 +75,10 @@
                                         <p>Fort Worth, TX</p>
                                     </div>
                                     <div class="userList__tags">
-                                        <span>clothes</span>
-                                        <span>stem</span>
+                                        <span>headset</span>
+                                        <span>gadget</span>
+                                        <span>speed</span>
+                                        <span>winter</span>
                                     </div>
                                 </div>
                             </div>
@@ -87,8 +94,11 @@
                                         <p>Austin, TX</p>
                                     </div>
                                     <div class="userList__tags">
-                                        <span>clothes</span>
-                                        <span>stem</span>
+                                        <span>road</span>
+                                        <span>mountain</span>
+                                        <span>trip</span>
+                                        <span>earth</span>
+                                        <span>nature</span>
                                     </div>
                                 </div>
                             </div>
@@ -96,16 +106,18 @@
                         <div class="col-4">
                             <div class="userList__user">
                                 <div class="userList__image">
-                                    <img src="assets/images/user3.jpg" alt="">
+                                    <img src="assets/images/user4.jpg" alt="">
                                 </div>
                                 <div class="userList__content">
                                     <div class="userList__info">
-                                        <h6>Annie Rice</h6>
-                                        <p>Austin, TX</p>
+                                        <h6>Robert Brower</h6>
+                                        <p>Cincinatti, OH</p>
                                     </div>
                                     <div class="userList__tags">
-                                        <span>clothes</span>
-                                        <span>stem</span>
+                                        <span>Maintenance</span>
+                                        <span>gears</span>
+                                        <span>frames</span>
+                                        <span>repair</span>
                                     </div>
                                 </div>
                             </div>
@@ -113,16 +125,16 @@
                         <div class="col-4">
                             <div class="userList__user">
                                 <div class="userList__image">
-                                    <img src="assets/images/user3.jpg" alt="">
+                                    <img src="assets/images/user5.jpg" alt="">
                                 </div>
                                 <div class="userList__content">
                                     <div class="userList__info">
-                                        <h6>Annie Rice</h6>
-                                        <p>Austin, TX</p>
+                                        <h6>Amy Campbell</h6>
+                                        <p>Warrior, AL</p>
                                     </div>
                                     <div class="userList__tags">
-                                        <span>clothes</span>
-                                        <span>stem</span>
+                                        <span>music</span>
+                                        <span>disks</span>
                                     </div>
                                 </div>
                             </div>
@@ -130,16 +142,16 @@
                         <div class="col-4">
                             <div class="userList__user">
                                 <div class="userList__image">
-                                    <img src="assets/images/user3.jpg" alt="">
+                                    <img src="assets/images/user6.jpg" alt="">
                                 </div>
                                 <div class="userList__content">
                                     <div class="userList__info">
-                                        <h6>Annie Rice</h6>
-                                        <p>Austin, TX</p>
+                                        <h6>Anthony S. Morin</h6>
+                                        <p>Lyndhurst, NJ</p>
                                     </div>
                                     <div class="userList__tags">
-                                        <span>clothes</span>
-                                        <span>stem</span>
+                                        <span>vintage</span>
+                                        <span>electric</span>
                                     </div>
                                 </div>
                             </div>
@@ -150,6 +162,7 @@
         </div>
     </div>
 
+    <script src="assets/js/main.js"></script>
     <script src="https://code.jquery.com/jquery-3.3.1.slim.min.js"
         integrity="sha384-q8i/X+965DzO0rT7abK41JStQIAqVgRVzpbzo5smXKp4YfRvH+8abtTE1Pi6jizo" crossorigin="anonymous">
     </script>
